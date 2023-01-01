@@ -180,13 +180,13 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const LIFESPAN = 10;
-const REPRODUCTIVE_AGE = 5;
-const TIME_STEP_DELAY = 100;
-const SELECTION_AGRESSION_DIVIDER = 7; // Higher value = less aggressive natural selection
-const POPULATION_LIMIT = 30000;
+const LIFESPAN = 4;//10
+const REPRODUCTIVE_AGE = 2; //5
+const TIME_STEP_DELAY = 100;//100
+const SELECTION_AGRESSION_DIVIDER = 2;//7 // Higher value = less aggressive natural selection
+const POPULATION_LIMIT = 30000;//30000
 const RED = new Color(0, 1, 0.5);
-const POSITION_SPREAD = 5;
+const POSITION_SPREAD = 15;//5
 const COLOR_MUTATION_AMOUNT = 10;
 const INITIAL_POPULATION_COUNT = 9000;
 
